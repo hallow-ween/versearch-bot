@@ -1,0 +1,61 @@
+@font-face {
+src: url(typewriter.ttf);
+font-family: typewriter;
+}
+
+@font-face {
+src: url(typewriter-bold.ttf);
+font-family: typewriterBold;
+}
+a {
+font-family: typewriter;
+color: #F59E0B;
+}
+p {
+font-family: typewriter;
+}
+h1 {
+font-family: typewriterBold;
+color: #F59E0B;
+}
+h2 {
+font-family: typewriterBold;
+color: #F59E0B;
+}
+select {
+font-family: typewriter;
+border-style: solid;
+border-color: #F59E0B;
+color: #F59E0B;
+}
+button {
+font-family: typewriter;
+border-style: solid;
+border-color: #F59E0B;
+color: #F59E0B;
+}
+
+body {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 0;
+}
+
+li {
+font-family: typewriter;
+color: #F59E0B;
+}
+
+.content {
+position: relative;
+width: 800px;
+height: 400px;
+overflow: auto;
+bottom: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 0;
+
+}
